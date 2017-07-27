@@ -10,4 +10,9 @@
 
 @interface QuestionManager : NSObject
 
+    @property (nonatomic,strong) NSMutableArray* questionsArray ;
+    
+    
+   -(NSString*) timeOutput ;
+   -(double) getAverageTime;
 @end

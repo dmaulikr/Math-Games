@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		11AC6E251F27C9230099F1C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E241F27C9230099F1C1 /* main.m */; };
-		11AC6E2D1F27E6D50099F1C1 /* Addition Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E2C1F27E6D50099F1C1 /* Addition Question.m */; };
+		11AC6E2D1F27E6D50099F1C1 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E2C1F27E6D50099F1C1 /* Question.m */; };
 		11AC6E301F27F8210099F1C1 /* Scorekeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E2F1F27F8210099F1C1 /* Scorekeeper.m */; };
 		11AC6E331F27FDD10099F1C1 /* Input Handling.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E321F27FDD10099F1C1 /* Input Handling.m */; };
+		11AC6E361F2919D80099F1C1 /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E351F2919D80099F1C1 /* QuestionManager.m */; };
+		11AC6E391F295F9F0099F1C1 /* Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E381F295F9F0099F1C1 /* Addition.m */; };
+		11AC6E3C1F295FC90099F1C1 /* Subraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E3B1F295FC90099F1C1 /* Subraction.m */; };
+		11AC6E401F2968260099F1C1 /* Multiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E3F1F2968260099F1C1 /* Multiplication.m */; };
+		11AC6E431F29689F0099F1C1 /* Division.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E421F29689F0099F1C1 /* Division.m */; };
+		11AC6E461F296A9D0099F1C1 /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC6E451F296A9D0099F1C1 /* QuestionFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,12 +34,24 @@
 /* Begin PBXFileReference section */
 		11AC6E211F27C9230099F1C1 /* Maths Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Maths Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11AC6E241F27C9230099F1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		11AC6E2B1F27E6D50099F1C1 /* Addition Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Addition Question.h"; sourceTree = "<group>"; };
-		11AC6E2C1F27E6D50099F1C1 /* Addition Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Addition Question.m"; sourceTree = "<group>"; };
+		11AC6E2B1F27E6D50099F1C1 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		11AC6E2C1F27E6D50099F1C1 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		11AC6E2E1F27F8210099F1C1 /* Scorekeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scorekeeper.h; sourceTree = "<group>"; };
 		11AC6E2F1F27F8210099F1C1 /* Scorekeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scorekeeper.m; sourceTree = "<group>"; };
 		11AC6E311F27FDD10099F1C1 /* Input Handling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Input Handling.h"; sourceTree = "<group>"; };
 		11AC6E321F27FDD10099F1C1 /* Input Handling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Input Handling.m"; sourceTree = "<group>"; };
+		11AC6E341F2919D80099F1C1 /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
+		11AC6E351F2919D80099F1C1 /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
+		11AC6E371F295F9F0099F1C1 /* Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Addition.h; sourceTree = "<group>"; };
+		11AC6E381F295F9F0099F1C1 /* Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Addition.m; sourceTree = "<group>"; };
+		11AC6E3A1F295FC90099F1C1 /* Subraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subraction.h; sourceTree = "<group>"; };
+		11AC6E3B1F295FC90099F1C1 /* Subraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subraction.m; sourceTree = "<group>"; };
+		11AC6E3E1F2968260099F1C1 /* Multiplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multiplication.h; sourceTree = "<group>"; };
+		11AC6E3F1F2968260099F1C1 /* Multiplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Multiplication.m; sourceTree = "<group>"; };
+		11AC6E411F29689F0099F1C1 /* Division.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Division.h; sourceTree = "<group>"; };
+		11AC6E421F29689F0099F1C1 /* Division.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Division.m; sourceTree = "<group>"; };
+		11AC6E441F296A9D0099F1C1 /* QuestionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionFactory.h; sourceTree = "<group>"; };
+		11AC6E451F296A9D0099F1C1 /* QuestionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +85,34 @@
 			isa = PBXGroup;
 			children = (
 				11AC6E241F27C9230099F1C1 /* main.m */,
-				11AC6E2B1F27E6D50099F1C1 /* Addition Question.h */,
-				11AC6E2C1F27E6D50099F1C1 /* Addition Question.m */,
+				11AC6E2B1F27E6D50099F1C1 /* Question.h */,
+				11AC6E2C1F27E6D50099F1C1 /* Question.m */,
+				11AC6E3D1F295FF70099F1C1 /* Question */,
 				11AC6E2E1F27F8210099F1C1 /* Scorekeeper.h */,
 				11AC6E2F1F27F8210099F1C1 /* Scorekeeper.m */,
 				11AC6E311F27FDD10099F1C1 /* Input Handling.h */,
 				11AC6E321F27FDD10099F1C1 /* Input Handling.m */,
+				11AC6E341F2919D80099F1C1 /* QuestionManager.h */,
+				11AC6E351F2919D80099F1C1 /* QuestionManager.m */,
+				11AC6E441F296A9D0099F1C1 /* QuestionFactory.h */,
+				11AC6E451F296A9D0099F1C1 /* QuestionFactory.m */,
 			);
 			path = "Maths Game";
+			sourceTree = "<group>";
+		};
+		11AC6E3D1F295FF70099F1C1 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				11AC6E371F295F9F0099F1C1 /* Addition.h */,
+				11AC6E381F295F9F0099F1C1 /* Addition.m */,
+				11AC6E3A1F295FC90099F1C1 /* Subraction.h */,
+				11AC6E3B1F295FC90099F1C1 /* Subraction.m */,
+				11AC6E3E1F2968260099F1C1 /* Multiplication.h */,
+				11AC6E3F1F2968260099F1C1 /* Multiplication.m */,
+				11AC6E411F29689F0099F1C1 /* Division.h */,
+				11AC6E421F29689F0099F1C1 /* Division.m */,
+			);
+			name = Question;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AC6E361F2919D80099F1C1 /* QuestionManager.m in Sources */,
+				11AC6E431F29689F0099F1C1 /* Division.m in Sources */,
+				11AC6E401F2968260099F1C1 /* Multiplication.m in Sources */,
+				11AC6E391F295F9F0099F1C1 /* Addition.m in Sources */,
 				11AC6E331F27FDD10099F1C1 /* Input Handling.m in Sources */,
-				11AC6E2D1F27E6D50099F1C1 /* Addition Question.m in Sources */,
+				11AC6E2D1F27E6D50099F1C1 /* Question.m in Sources */,
+				11AC6E3C1F295FC90099F1C1 /* Subraction.m in Sources */,
 				11AC6E251F27C9230099F1C1 /* main.m in Sources */,
+				11AC6E461F296A9D0099F1C1 /* QuestionFactory.m in Sources */,
 				11AC6E301F27F8210099F1C1 /* Scorekeeper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +308,7 @@
 				11AC6E2A1F27C9230099F1C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
